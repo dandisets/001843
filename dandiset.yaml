@@ -7,9 +7,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1991289631
+  numberOfFiles: 10
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ImagingPlane
+  - ProcessingModule
+  - OnePhotonSeries
+  - PlaneSegmentation
+  - OpticalChannel
 citation: Kumar, Manoj (2026) An Ultraresponsive Green Biosensor for Robust in Vivo
   Imaging of Synaptic Zinc Dynamics (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001843/draft
 contributor:
